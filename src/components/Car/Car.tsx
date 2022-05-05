@@ -13,7 +13,6 @@ const Car :FC<IProps>= ({car:{id, price, year, model}}) => {
             <div>id: {id}</div>
             <div>model: {model}</div>
             <div>price: {price}</div>
-
             <div>year: {year}</div>
             <Link to={`${id}`}>
                 <button>getDetails</button>
